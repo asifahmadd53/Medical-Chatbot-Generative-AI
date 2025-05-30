@@ -61,7 +61,7 @@ iface = gr.Interface(
     outputs=[
         gr.Textbox(label="What you said (Speech to Text)"),
         gr.Textbox(label="Doctor's Response"),
-        gr.Audio(label="Doctor's Voice Response", autoplay=True)
+        gr.Audio(label="Doctor's Voice Response", autoplay=False)
     ],
     title="🩺 AI Doctor with Vision and Voice",
     description="Speak to the AI doctor and optionally provide a medical image for analysis. The doctor will provide professional medical insights based on your description and image.",
